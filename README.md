@@ -51,7 +51,7 @@ public EnumType Type { get; set; }
 </appSettings>
 ```
 
-### capture diagnostic using nlog
+### Capture diagnostic using nlog
 ```
 <system.diagnostics>
     <sources>
