@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<version>1.0.0</version>
+		<authors>misterhex</authors>
+		<id>NESTLogger</id>
+		<title>NESTLogger</title>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<dependencies>
+			<dependency id="Elasticsearch.Net" version="[2.5.0]" />
+			<dependency id="NEST" version="[2.5.0]" />
+			<dependency id="Newtonsoft.Json" version="9.0.1" />
+			<dependency id="Rx-Core" version="2.2.5" />
+			<dependency id="Rx-Interfaces" version="2.2.5" />
+			<dependency id="Rx-Linq" version="2.2.5" />
+			<dependency id="Rx-Main" version="2.2.5" />
+			<dependency id="Rx-PlatformServices" version="2.2.5" />
+			<dependency id="Rx-Testing" version="2.2.5" />
+		</dependencies>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="System.Configuration"/>
+		</frameworkAssemblies>
+	</metadata>
+</package>
