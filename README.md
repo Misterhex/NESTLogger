@@ -1,7 +1,7 @@
 # NESTLogger
 
 ### Overview
-An abstraction on top of [NEST and elasticsearch-net](https://github.com/elastic/elasticsearch-net) to automatically group indices by [Index Per Time frame](https://www.elastic.co/guide/en/elasticsearch/guide/current/time-based.html) using a common pattern that is understood by [curator](https://github.com/elastic/curator). Buffer the data using [reactive extensions](https://github.com/Reactive-Extensions/Rx.NET).
+An abstraction on top of [NEST and elasticsearch-net](https://github.com/elastic/elasticsearch-net) to automatically group indices by [Index Per Time frame](https://www.elastic.co/guide/en/elasticsearch/guide/current/time-based.html) using a common pattern that is understood by [curator](https://github.com/elastic/curator).
 
 ### Features
 - buffer and bulk send to elasticsearch.
